@@ -2,6 +2,9 @@
 // const axios = require('axios');
 // import axios from 'axios';
 
+// Specifying Globals：透過註解的方式，設置全域變數
+/* global axios */
+
 const url = 'https://hexschool.github.io/js-filter-data/data.json';
 const filter = document.querySelector('.filter');
 const table = document.querySelector('.table-content');
